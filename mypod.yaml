@@ -1,0 +1,13 @@
+# mypod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-simple-app
+  labels:
+    app: simple
+spec:
+  containers:
+    - name: my-simple-app-container
+      image: nginx:latest
+      ports:
+        - containerPort: 80 # コンテナが80番ポートを公開
