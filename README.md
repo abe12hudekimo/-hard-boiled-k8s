@@ -1,1 +1,1 @@
-# -hard-boiled-k8s
+# hard-boiled-k8s
